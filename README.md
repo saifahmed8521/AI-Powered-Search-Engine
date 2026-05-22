@@ -6,13 +6,12 @@
 
 Search for properties the way you'd talk to a real estate agent.
 Type *"3 BHK ready to move flat on Tonk Road Jaipur under 1 crore"* and get
-structured, relevant results — typos and vague phrasing welcome.
+structured, relevant results typos and vague phrasing welcome.
 
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-OpenAI-1C3C3C?logo=langchain&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-ready-2496ED?logo=docker&logoColor=white)
-![License](https://img.shields.io/badge/license-MIT-green)
 
 </div>
 
@@ -20,7 +19,7 @@ structured, relevant results — typos and vague phrasing welcome.
 
 ## ✨ Overview
 
-**AI Powered Search Engine** turns free-form, natural-language property queries into
+**AI Powered Search Engine** turns free form, natural language property queries into
 precise, filtered results. It blends three layers:
 
 1. **🧠 LLM understanding** — an OpenAI model (`gpt-4.1-nano`) parses messy user input
@@ -134,7 +133,7 @@ static server — it talks to the API for conversational search.
 
 ### `POST /chat-search`
 
-Parse a natural-language query and return matching properties.
+Parse a natural language query and return matching properties.
 
 **Request body**
 
@@ -202,10 +201,6 @@ Contributions, issues, and feature requests are welcome! Feel free to open an
 issue or submit a pull request.
 
 ---
-
-## 📄 License
-
-Released under the [MIT License](LICENSE).
 
 <div align="center">
 
