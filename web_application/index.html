@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Real Estate Search</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+  <div class="container">
+    <div id="search-section" class="search-section center">
+      <input type="text" id="search-input" placeholder="Search for properties..." />
+      <button id="search-button">Search</button>
+      <!-- Loader -->
+      <div id="loader" class="loader hidden">
+        <div class="spinner"></div>
+        <p>Searching properties...</p>
+      </div>
+    </div>
+    
+    <button id="reset-button" class="hidden">Reset Search</button>
+    
+    <div id="results" class="card-grid"></div>
+  </div>
+
+  <!-- Modal -->
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div class="carousel">
+        <img src="images/image.jpg" class="carousel-image" alt="Property Image 1" />
+        <img src="images/image1.png" class="carousel-image hidden" alt="Property Image 2" />
+        <img src="images/image2.jpeg" class="carousel-image hidden" alt="Property Image 3" />
+        <div class="carousel-buttons">
+          <button id="prev">&#8592;</button>
+          <button id="next">&#8594;</button>
+        </div>
+      </div>
+      <div class="contact-icons">
+        <i class="fab fa-whatsapp" title="Contact via WhatsApp"></i>
+        <i class="fas fa-phone" title="Call us"></i>
+        <i class="fas fa-envelope" title="Email us"></i>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
